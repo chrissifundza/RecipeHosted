@@ -1,0 +1,34 @@
+.testimonial-section-bottom{
+    position: relative;
+    height:350px !important;
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-section-bottom .img-container{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.testimonial-section-bottom .img-container img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.testimonialContainer{
+    position: relative;
+    width: 410px;
+    margin: 20px;
+}
+.divTestimonial{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
