@@ -558,7 +558,7 @@ export const startFetchMealsBySearch = async(dispatch, searchTerm) => {
     } catch(error){
         dispatch({type: FETCH_MEALS_ERROR, payload: error.message});
         console.log(error.message);
-        if(error && searchTerm!="water" && searchTerm!="salt" &&searchTerm!="flour"&&searchTerm!="flour salt"&&searchTerm!="flour salt water"&&searchTerm!="flour water"&&searchTerm!="salt water"){
+        if(error && searchTerm!="water" && searchTerm!="salt" &&searchTerm!="flour"&&searchTerm!="flour salt"&&searchTerm!="flour salt water"&&searchTerm!="flour water"&&searchTerm!="salt water"&&searchTerm!="water salt"){
             swal("Error", "Recipe cannot be found","error")
         }
     }
