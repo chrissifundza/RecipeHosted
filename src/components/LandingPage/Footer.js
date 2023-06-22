@@ -5,6 +5,8 @@ import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import { MdFoodBank } from "react-icons/md";
+import { Link } from "react-router-dom";
+import { Instagram } from "@mui/icons-material";
 
 const Footer = () => {
   return (
@@ -15,10 +17,10 @@ const Footer = () => {
               <span className='navbar-brand-text fw-7'>CookITUP</span></h3>
         </div>
         <div className="footer-icons">
-          <BsTwitter />
-          <SiLinkedin />
-          <BsYoutube />
-          <FaFacebookF />
+        <Link to="https://twitter.com/cookitup1?s=11&t=kz0GuwT82IPHjIypVAScAA" target="_blank"><BsTwitter /></Link> 
+        <Link to="https://instagram.com/cookitup_1?igshid=YmM0MjE2YWMzOA==" target="_blank"> <Instagram/> </Link>
+         <Link to="https://www.facebook.com/profile.php?id=100093508644729&mibextid=LQQJ4d" target="_blank"><FaFacebookF /></Link>
+          
         </div>
       </div>
       <div className="footer-section-two">

@@ -18,6 +18,7 @@ import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
 import { Link } from "react-router-dom";
 import { MdFoodBank} from "react-icons/md";
+import { FaUserAlt } from "react-icons/fa";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -39,8 +40,8 @@ const Navbar = () => {
       icon: <PhoneRoundedIcon />,
     },
     {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
+      text: <Link to='/account' style={{color:"#808080"}} className="primary-button">Login Now</Link>,
+      icon: <FaUserAlt/>,
     },
   ];
   return (
